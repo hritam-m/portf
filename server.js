@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 4000;
 
 // Define the directory where your HTML files are located
 const publicDirectoryPath = path.join(__dirname, 'src');
