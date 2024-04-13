@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Single Page Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showContent('home'); return false;">Home</a></li>
+        <li><a href="#" onclick="showContent('about'); return false;">About</a></li>
+        <li><a href="#" onclick="showContent('contact'); return false;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="mainContent">
+    <!-- Content for different pages will be dynamically loaded here -->
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
